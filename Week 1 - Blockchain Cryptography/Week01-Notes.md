@@ -17,7 +17,7 @@ And it must contain other specific properties such as:
 **Public Key Cryptography**
 
 Historically, Cryptography was the study of encrypting messages securely so it couldn't be decrypted even if intercepted. `Diffie–Hellman key exchange` was one of the first public-key protocols.
-![Diffie–Hellman](/Diffie–Hellman.png)
+
 The Diffie–Hellman key exchange method allows two parties that have no prior knowledge of each other to jointly establish a shared secret key over an insecure channel. This key can then be used to encrypt subsequent communications using a symmetric-key cipher.
 
 Public key cryptography is considered `asymmetric encryption` in that only one party has access to the private key.
@@ -25,8 +25,7 @@ Today, both RSA and ECDSA are two popularly used algorithms for public key crypt
 
 **Elliptic curve digital signature algorithm (ECDSA)**
 An `elliptic curve` is the set of points that satisfy a specific mathematical equation. The equation for an elliptic curve looks something like this:
-y2 = x3 + ax + b
-![ECDSA](/ecdsa.png)
+                   ```y2 = x3 + ax + b```
 - There are other representations of elliptic curves, but technically an elliptic curve is the set points satisfying an equation in two variables with degree two in one of the variables and three in the other. An elliptic curve is not just a pretty picture, it also has some properties that make it a good setting for cryptography.
 - The history of cryptography shows us that good cryptography has been repeatedly defeated not because of bad math, but because of bad implementations of good math.
 - One interesting quirk of the ECDSA algorithm is that every signature requires some random or unpredictable data as input. If the source of randomness is predictable to an attacker, then they can figure out the private key. Hackers have exploited this vulnerability in several high-profile incidents.
