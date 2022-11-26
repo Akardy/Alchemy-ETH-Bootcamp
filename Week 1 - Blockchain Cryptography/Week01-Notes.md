@@ -2,6 +2,7 @@ In the first week, the bootcamp covers the fundamentals of Cryptography which th
 
 
 `NOTES`: I’ll upload my answers for all the challenges in the bootcamp, and I’ll keep updating..
+You can **my find my answers for the first week challanges here**: [ANSWERS FOR WEEK 1](https://github.com/Akardy/Alchemy-ETH-Bootcamp/tree/main/Week%201%20-%20Blockchain%20Cryptography).
 
 
 **Cryptographic hash function**
