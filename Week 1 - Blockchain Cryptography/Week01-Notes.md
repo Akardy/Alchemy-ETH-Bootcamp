@@ -17,7 +17,7 @@ And it must contain other specific properties such as:
 
 **Public Key Cryptography**
 
-An `Ethereum public key` is a point on ab elliptic curve. In simpler terms, an Ethereum public key is two number, joined together.
+An `Ethereum public key` is a point on an elliptic curve. In simpler terms, an Ethereum public key is two number, joined together.
 
 Historically, Cryptography was the study of encrypting messages securely so it couldn't be decrypted even if intercepted. `Diffie–Hellman key exchange` was one of the first public-key protocols.
 
