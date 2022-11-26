@@ -48,5 +48,7 @@ The `RSA algorithm` is based on the idea that it's very easy to find the product
 To read more about Secp256k1: [click here](https://en.bitcoin.it/wiki/Secp256k1).
 
 
+`I HAVE NOT FINISH THE FIRST WEEK MODULE YET, I'll update my notes soon.`
+
 
 **Credits**: I'll be referencing my informations whether now or when I update this file in future from several sources such as Wikipedia, Alchemy bootcamp, FreeCodeCamp, Mastering Ethereum, official docs and other sources.
