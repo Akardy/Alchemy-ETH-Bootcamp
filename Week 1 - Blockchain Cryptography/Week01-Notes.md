@@ -1,4 +1,4 @@
-In the first week, the bootcamp covers the fundamentals of Cryptography which the name crypto is derived from, and they explain concepts such as hash functions, Public Key, and introduce us to some of the most known algorithms for public key cryptography like RSA and ECDSA. 
+In the first week, the bootcamp covers the fundamentals of Cryptography which the name crypto is derived from, and provides a brief survey of hash functions, Public Keys, Private Keys and introduce us to some of the most known algorithms for public key cryptography like RSA and ECDSA. 
 
 
 `NOTES`: I’ll upload my answers for all the challenges in the bootcamp, and I’ll keep updating..
@@ -16,6 +16,8 @@ And it must contain other specific properties such as:
 - `Fast to Compute` - It must be a quick calculation for a computer.
 
 **Public Key Cryptography**
+
+An `Ethereum public key` is a point on ab elliptic curve. In simpler terms, an Ethereum public key is two number, joined together.
 
 Historically, Cryptography was the study of encrypting messages securely so it couldn't be decrypted even if intercepted. `Diffie–Hellman key exchange` was one of the first public-key protocols.
 
@@ -39,6 +41,11 @@ An `elliptic curve` is the set of points that satisfy a specific mathematical eq
 - An article explaining [ECDSA](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/) in more depth.
 - An article showing how the [NSA made a deliberate flaw to crack the encryption of a random number generator called (Dual_EC_DRBG)](https://www.reuters.com/article/us-usa-security-nsa-rsa/exclusive-nsa-infiltrated-rsa-security-more-deeply-than-thought-study-idUSBREA2U0TY20140331).
 
+**Private Keys**
+
+A private key is simply a number picked ar random. The private key is used to create signatures required to spend ether by proving the ownership of funds used in a transaction. The public key and the address are generated from the private key, and also the private keys aren't stored in the blockchain.
+The size of Ethereun's private key space is 2^256, this is a large number with approximately 10^77 decimal, so you can be pretty confident that no one will ever guess the same private key that you have generated randomly.
+
 **RSA**
 
 The `RSA algorithm` is based on the idea that it's very easy to find the product of two prime numbers, yet extremely difficult to factor out those two prime numbers if you have the product.
@@ -54,4 +61,4 @@ To read more about Secp256k1: [click here](https://en.bitcoin.it/wiki/Secp256k1)
 `I HAVE NOT FINISHED THE FIRST WEEK MODULE YET, I'll update my notes soon.`
 
 
-**Credits**: I'll be referencing my informations whether now or when I update this file in future from several sources such as Wikipedia, Alchemy bootcamp, FreeCodeCamp, Mastering Ethereum, official docs and other sources.
+**Credits**: I'll be referencing my informations from several sources such as Wikipedia, Alchemy bootcamp, FreeCodeCamp, Mastering Ethereum Book, official docs and other sources.
